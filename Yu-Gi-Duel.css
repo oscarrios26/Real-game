@@ -124,3 +124,15 @@ main {
   position: relative;
   top: 1px;
 }
+
+
+
+
+@media only screen and (min-device-width : 740px) {
+  main {
+    display: flex;
+    flex-direction: column;
+  }
+
+
+}
