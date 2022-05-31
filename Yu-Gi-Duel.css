@@ -128,7 +128,7 @@ main {
 
 
 
-@media only screen and (min-device-width : 740px) {
+@media only screen and (min-device-width : 740px) and (max-device-width : 1024px) {
   main {
     display: flex;
     flex-direction: column;
