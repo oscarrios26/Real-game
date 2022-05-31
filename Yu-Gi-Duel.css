@@ -1,0 +1,126 @@
+html {
+  background-color: rgb(77, 4, 116);
+}
+
+main {
+
+
+  display: flex;
+  flex-direction: row;
+  justify-content: space-around;
+  align-items: center;
+}
+
+
+
+#leftCard {
+  padding: 160px;
+  padding-left: 300px;
+}
+
+#rightCard {
+  padding: 160px;
+  padding-right: 300px;
+}
+
+.rightt {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 252, 249);
+  font-size: 60px;
+  padding-top: 100px;
+  padding-right: 150px;
+}
+
+.left {
+  text-align: center;
+  font-weight: bolder;
+  color: rgb(255, 252, 249);
+  font-size: 60px;
+  padding-top: 100px;
+  padding-left: 150px;
+}
+
+.vs {
+  font-size: 200px;
+  color: rgb(255, 252, 249);
+}
+
+#btnLeft {
+  box-shadow: 0px 0px 0px 2px #ebaeae;
+  background: linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
+  background-color: #dbb51b;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 30px;
+  padding: 5px 80px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+
+}
+
+#btnLeft:hover {
+  background: linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
+  background-color: #9c4646;
+}
+
+#btnLeft:active {
+  position: relative;
+  top: 1px;
+}
+
+.btnd {
+  padding-right: 150px;
+  padding-top: 50px;
+}
+
+.vsdiv {
+  padding-left: 110px;
+}
+
+.leftpoints {
+  padding-left: 490px;
+  padding-top: 20px;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+.rightpoints {
+  padding-left: 350px;
+  padding-top: 20px;
+  font-size: 60px;
+  color: #ffffff;
+}
+
+
+.playAgain2 {
+  box-shadow: 0px 0px 0px 2px #ebaeae;
+  background: linear-gradient(to bottom, #dbb51b 5%, #9c4646 100%);
+  background-color: #dbb51b;
+  border-radius: 10px;
+  border: 1px solid #4e6096;
+  display: inline-block;
+  cursor: pointer;
+  color: #ffffff;
+  font-family: Arial;
+  font-size: 20px;
+  margin-left: 100px;
+  padding: 10px 20px;
+  text-decoration: none;
+  text-shadow: 0px 1px 0px #283966;
+
+}
+
+.playAgain2 :hover {
+  background: linear-gradient(to bottom, #9c4646 5%, #dbb51b 100%);
+  background-color: #9c4646;
+}
+
+.playAgain2 :active {
+  position: relative;
+  top: 1px;
+}

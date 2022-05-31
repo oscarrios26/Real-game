@@ -1,0 +1,27 @@
+@app.route('/games/genre/<genre>', methods=['GET'])
+def genre(genre=None):
+    if genre:
+        genrer = []
+        for gen in Games.select().where(Games.genre == genre):
+            genrer.append(model_to_dict(gen))
+        while genre:    
+            return jsonify(genrer)
+    
+@app.route('/games/developer/<developer>', methods=['GET'])
+def developer(developer=None):
+    if developer:
+        developerr = []
+        for dev in Games.select().where(Games.developer == developer):
+            developerr.append(model_to_dict(dev))
+        while developer:    
+            return jsonify(developerr)
+
+
+@app.route('/games/publisher/<publisher>', methods=['GET'])
+def publisher(publisher=None):
+    if publisher:
+        publi = []
+        for pub in Games.select().where(Games.publisher == publisher):
+            publi.append(model_to_dict(pub))
+        while publisher:    
+            return jsonify(publi)            
